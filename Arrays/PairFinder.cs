@@ -2,10 +2,15 @@ using System;
 
 namespace data_structure_and_algorithms
 
-{
+{   
+    
+    /// <summary>
+    /// Exercise 2 Subbarray
+    /// https://blog.usejournal.com/500-data-structures-and-algorithms-practice-problems-35afe8a1e222
+    /// </summary>
      class PairFinder {
         /// <summary>
-        /// 
+        /// Finds pairs in an array with a specefic sum
         /// </summary>
         /// <param name="sum"></param>
         /// <param name="arrayLength"></param>
