@@ -15,7 +15,7 @@ namespace data_structure_and_algorithms
 
             for (int i = 0; i < myArray.Length; i++)
             {
-     
+
                 var random = r.Next(0, 2);
                 myArray[i] = random;
                 Console.WriteLine(myArray[i] + " " + "i" + "=" + i);
@@ -23,45 +23,41 @@ namespace data_structure_and_algorithms
             }
 
             int zeroCounter = 0;
-            int OnesCounter = 0; 
+            int OnesCounter = 0;
 
             for (int i = 0; i < myArray.Length; i++)
             {
-                if (myArray[i]== 0)
+                if (myArray[i] == 0)
                 {
-                    zeroCounter ++;
-                    
+                    zeroCounter++;
+
                 }
 
-                if (myArray[i]== 1)
-                {
-                    OnesCounter++;
-                    
-                }
-                
-            } 
+            }
 
-                         
-             Console.WriteLine(zeroCounter);
-             Console.WriteLine(OnesCounter);
+            int rest = myArray.Length - zeroCounter;
 
 
-            int counter =0; 
+            Console.WriteLine(zeroCounter);
+            Console.WriteLine(OnesCounter);
+
+
+            int counter = 0;
 
             while (zeroCounter-- != 0)
             {
                 myArray[counter++] = 0;
-                
+
             }
 
-            while(OnesCounter-- != 0)
+            while (rest-- != 0)
             {
                 myArray[counter++] = 1;
 
             }
 
-        
-            
+
+
 
 
             return;
