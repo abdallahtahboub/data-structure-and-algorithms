@@ -58,7 +58,11 @@ namespace data_structure_and_algorithms
 
 
 
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                Console.WriteLine(myArray[i]);
 
+            }
 
             return;
 
