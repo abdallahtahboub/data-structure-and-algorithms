@@ -9,7 +9,6 @@ namespace data_structure_and_algorithms
         public static void SortBinaryArray(int arrayLength)
         {
 
-            //int counter = 0;
             int[] myArray = new int[arrayLength];
             Random r = new Random();
 
@@ -23,8 +22,6 @@ namespace data_structure_and_algorithms
             }
 
             int zeroCounter = 0;
-            int OnesCounter = 0;
-
             for (int i = 0; i < myArray.Length; i++)
             {
                 if (myArray[i] == 0)
@@ -35,11 +32,11 @@ namespace data_structure_and_algorithms
 
             }
 
-            int rest = myArray.Length - zeroCounter;
+            int Ones = myArray.Length - zeroCounter;
 
 
             Console.WriteLine(zeroCounter);
-            Console.WriteLine(OnesCounter);
+            Console.WriteLine(Ones);
 
 
             int counter = 0;
@@ -50,7 +47,7 @@ namespace data_structure_and_algorithms
 
             }
 
-            while (rest-- != 0)
+            while (Ones-- != 0)
             {
                 myArray[counter++] = 1;
 

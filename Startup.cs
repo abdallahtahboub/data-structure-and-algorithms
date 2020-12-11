@@ -10,7 +10,7 @@ namespace data_structure_and_algorithms
 
             Console.WriteLine("Hello World!");
             //PairFinder.FindPair(4, 10000000);
-            BinaryArraySort.SortBinaryArray(1000000);
+            BinaryArraySort.SortBinaryArray(10000);
             // SubarrayFinder.FindSubarray(22, 10000);
 
         }
