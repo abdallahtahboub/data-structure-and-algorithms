@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    "net5.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    "net5.0": []
   },
   "packageFolders": {
     "/home/abdallah/.nuget/packages/": {}
@@ -13,23 +13,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/abdallah/Documents/projects/data-structure-and-algorithms/data-structure-and-algorithms.csproj",
+      "projectUniqueName": "/home/abdallah/Desktop/projects/data-structure-and-algorithms/data-structure-and-algorithms.csproj",
       "projectName": "data-structure-and-algorithms",
-      "projectPath": "/home/abdallah/Documents/projects/data-structure-and-algorithms/data-structure-and-algorithms.csproj",
+      "projectPath": "/home/abdallah/Desktop/projects/data-structure-and-algorithms/data-structure-and-algorithms.csproj",
       "packagesPath": "/home/abdallah/.nuget/packages/",
-      "outputPath": "/home/abdallah/Documents/projects/data-structure-and-algorithms/obj/",
+      "outputPath": "/home/abdallah/Desktop/projects/data-structure-and-algorithms/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/abdallah/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "netcoreapp5.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "netcoreapp5.0",
           "projectReferences": {}
         }
       },
@@ -40,7 +41,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
+      "net5.0": {
+        "targetAlias": "netcoreapp5.0",
         "imports": [
           "net461",
           "net462",
@@ -56,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }
