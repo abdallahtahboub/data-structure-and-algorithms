@@ -6,6 +6,11 @@ namespace data_structure_and_algorithms
     public static class BinaryArraySort
     {
 
+
+        /// <summary>
+        /// Sorting a binary array in a linear time o(n)  Linear Complexity.
+        /// </summary>
+        /// <param name="arrayLength"></param>
         public static void SortBinaryArray(int arrayLength)
         {
 
