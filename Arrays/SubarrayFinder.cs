@@ -18,34 +18,39 @@ namespace data_structure_and_algorithms
         /// <param name="sum"></param>
         /// <param name="arrayLength"></param>
         /// <returns></returns>
-        public static void FindSubarray(int sum)
+        public static void FindSubarray(int sum, int arrayLength)
         {
             int counter = 0;
 
             List<int> val = new List<int>();
-            int[] test = { 6, 6, 8, 9, 5, 5, 8, 4, 5, 6 };
+            int[] test_1 = { 6, 6, 8, 9, 5, 5, 8, 4, 5, 6 };
+            int[] test_2 = { 4, 2, 2, 6, 9, 9, 0, 7, 0, 9 };
+            int[] test_3 = { 5, 3, 0, 4, 5, 0, 6, 9, 8, 6 };
+            int[] test_4 = { 1, 7, 0, 2, 2, 1, 1, 2, 2, 6 };
+            int[] test_5 = { 8, 5, 1, 3, 6, 7, 6, 6, 3, 1 };
+
 
             Random r = new Random();
-           // int[] test = new int[arrayLength];
-            for (int i = 0; i < test.Length; i++)
+            int[] myArray = new int[arrayLength];
+            for (int i = 0; i < myArray.Length; i++)
             {
 
                 var random = r.Next(0, 10);
-               // test[i] = random;
-                Console.WriteLine(test[i] + " " + "i" + "=" + i);
- 
+                myArray[i] = random;
+                Console.WriteLine(myArray[i] + " " + "i" + "=" + i);
+
             }
 
             int result = 0;
-           
 
-            for (int i = 0; i < test.Length; i++)
+
+            for (int i = 0; i < myArray.Length; i++)
             {
 
-                for (int f = i; f < test.Length; f++)
+                for (int f = i; f < myArray.Length;)
                 {
 
-                    int x = test[f];
+                    int x = myArray[f];
                     result += x;
                     val.Add(f);
                     if (result == sum)
@@ -56,12 +61,12 @@ namespace data_structure_and_algorithms
 
                     }
 
-                    if (test[i] == sum)
+                    if (myArray[i] == sum)
                     {
                         counter++;
                     }
 
-                   break;
+                    break;
 
                 }
                 result = 0;
