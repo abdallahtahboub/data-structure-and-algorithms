@@ -11,21 +11,24 @@ namespace data_structure_and_algorithms
         /// Sorting a binary array in a linear time o(n)  Linear Complexity.
         /// </summary>
         /// <param name="arrayLength"></param>
-        public static void SortBinaryArray(int arrayLength)
+        public static int SortBinaryArray(int[] myArray)
         {
 
-            int[] myArray = new int[arrayLength];
-            Random r = new Random();
+            
 
-            for (int i = 0; i < myArray.Length; i++)
-            {
+             //int[] myArray = new int[arrayLength];
+            // Random r = new Random();
 
-                var random = r.Next(0, 2);
-                myArray[i] = random;
-                Console.WriteLine(myArray[i] + " " + "i" + "=" + i);
+        //     for (int i = 0; i<myArray.Length; i++)
+        //     {
 
-            }
+        //         var random = r.Next(0, 2);
+        // myArray[i] = random;
+        //         Console.WriteLine(myArray[i] + " " + "i" + "=" + i);
 
+        //     }
+           
+           
             int zeroCounter = 0;
             for (int i = 0; i < myArray.Length; i++)
             {
@@ -66,7 +69,7 @@ namespace data_structure_and_algorithms
 
             }
 
-            return;
+            return zeroCounter + Ones;
 
         }
 
