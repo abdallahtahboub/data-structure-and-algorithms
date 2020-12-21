@@ -44,9 +44,9 @@ namespace data_structure_and_algorithms
 
             int Ones = MyArray.Length - zeroCounter;
 
-
-            Console.WriteLine(zeroCounter + " " + "Zeros");
-            Console.WriteLine(Ones + " " + "Ones");
+            // Writing zeroncounter and onesCounter on console.
+            // Console.WriteLine(zeroCounter + " " + "Zeros");
+            // Console.WriteLine(Ones + " " + "Ones");
 
 
             int counter = 0;
@@ -60,18 +60,21 @@ namespace data_structure_and_algorithms
 
             }
 
-            Console.WriteLine(zeroCounter + " " + "Zero Counter");
+            // Writing zeroncounter on console.
+            // Console.WriteLine(zeroCounter + " " + "Zero Counter");
             while (Ones-- != 0)
             {
                 MyArray[counter++] = 1;
 
-            }   
-
-            for (int i = 0; i < MyArray.Length; i++)
-            {
-                Console.WriteLine(MyArray[i]);
-
             }
+
+            // Writing sorted array on console
+
+            // for (int i = 0; i < MyArray.Length; i++)
+            // {
+            //     Console.WriteLine(MyArray[i]);
+
+            // }
 
             int sorted_Array_Length = MyArray.Length;
 
