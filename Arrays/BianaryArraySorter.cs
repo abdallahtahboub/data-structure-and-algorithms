@@ -73,7 +73,9 @@ namespace data_structure_and_algorithms
 
             }
 
-            return MyArray.Length;
+            int sorted_Array_Length = MyArray.Length;
+
+            return sorted_Array_Length;
 
         }
 
