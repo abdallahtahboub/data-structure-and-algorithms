@@ -48,7 +48,6 @@ namespace data_structure_and_algorithms
             // Console.WriteLine(zeroCounter + " " + "Zeros");
             // Console.WriteLine(Ones + " " + "Ones");
 
-
             int counter = 0;
             if (zeroCounter != 0)
             {
