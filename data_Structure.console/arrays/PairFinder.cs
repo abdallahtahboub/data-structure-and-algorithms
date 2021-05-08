@@ -2,13 +2,14 @@ using System;
 
 namespace data_structure_and_algorithms
 
-{   
-    
+{
+
     /// <summary>
     /// Exercise 2 Subbarray
     /// https://blog.usejournal.com/500-data-structures-and-algorithms-practice-problems-35afe8a1e222
     /// </summary>
-     class PairFinder {
+    class PairFinder
+    {
         /// <summary>
         /// Finds pairs in an array with a specefic sum
         /// </summary>
@@ -26,13 +27,14 @@ namespace data_structure_and_algorithms
             /// allocating the array with numbers generated randomly.
             /// </summary>
             /// <value>Random values</value>
-             Random r = new Random ();
-            int[] myAarray = new int[arrayLength];
-            for (int i = 0; i < myAarray.Length - 1; i++) {
+            Random r = new Random();
+            int[] myArray = new int[arrayLength];
+            for (int i = 0; i < myAarray.Length - 1; i++)
+            {
 
                 var random = r.Next(-100, 100);
-                myAarray[i] = random;
-                Console.WriteLine (myAarray[i] + " " + "i" + "=" + i);
+                myArray[i] = random;
+                Console.WriteLine(myAarray[i] + " " + "i" + "=" + i);
 
             }
 
@@ -40,19 +42,23 @@ namespace data_structure_and_algorithms
             {
                 // i+1 for no replications. //Optimaization.
 
-                for (int s = i + 1; s < myAarray.Length;s++) {
+                for (int s = i + 1; s < myAarray.Length; s++)
+                {
 
-                    if (myAarray[i] + myAarray[s] == sum) {
+                    if (myAarray[i] + myAarray[s] == sum)
+                    {
 
                         counter++;
 
-                        Console.WriteLine ("Pair found at " + i + "" + "and" + "" + s + ":");
+                        Console.WriteLine("Pair found at " + i + "" + "and" + "" + s + ":");
                         /// <summary>
                         /// Break for optimization. Otherwise it would take for ever. 
                         /// </summary>
                         break;
 
-                    } else {
+                    }
+                    else
+                    {
                         Console.WriteLine("No Pair found at " + i + "" + "and" + "" + s + ":");
                         /// <summary>
                         /// Break for optimization. Otherwise it would take for ever. 
