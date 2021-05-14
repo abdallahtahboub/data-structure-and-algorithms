@@ -6,6 +6,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp5.0</TargetFramework>
     <RootNamespace>data_structure_and_algorithms</RootNamespace>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
   </PropertyGroup>
 
 </Project>
