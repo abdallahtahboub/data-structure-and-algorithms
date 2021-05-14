@@ -16,6 +16,8 @@ namespace data_structure_and_algorithms
 
             // To do: to find multiple max product if exist. ex: [-3*-2] und [3*2]
 
+            // To do: Optimoze the problem: ex: by sorting the array and then find the max.
+
 
             /// <summary>
             /// allocating the array with numbers generated randomly.
