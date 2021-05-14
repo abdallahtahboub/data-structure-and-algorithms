@@ -9,10 +9,10 @@ namespace data_structure_and_algorithms
         {
 
             Console.WriteLine("Hello World!");
-            //PairFinder.FindPair(4, 10000000);
+            PairFinder.FindPair(4, 100);
             BinaryArraySort.SortBinaryArray(new int[] { 0, 0, 0, 0, 0, 0 }, 10);
             Console.WriteLine();
-            //SubarrayFinder.FindSubarray(6,10);
+            SubarrayFinder.FindSubarray(6,10);
             Console.ReadLine();
 
         }

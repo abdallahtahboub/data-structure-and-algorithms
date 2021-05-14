@@ -6,10 +6,8 @@ namespace data_Structure.console.Arrays
         public static int FindDublicaion(int[] MyArray, int length)
         {
 
-
-        
             return 0;
         }
-        
+
     }
 }
