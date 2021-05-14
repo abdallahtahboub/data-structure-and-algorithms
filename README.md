@@ -16,6 +16,11 @@ https://blog.usejournal.com/500-data-structures-and-algorithms-practice-problems
 - User gives a sum and array Length. The array will be randomly allocated.
 - Output will be a sorted binary array.
 
+4. Excercise: Maximum Product Finder [14.05.2021]
+- User gives a sum and array Length. The array will be randomly allocated.
+- Output will be the maximum product in the array.
+
+
 [Graph]
 
 1. 
