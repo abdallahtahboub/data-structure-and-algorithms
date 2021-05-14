@@ -29,23 +29,23 @@ namespace data_structure_and_algorithms
             /// <value>Random values</value>
             Random r = new Random();
             int[] myArray = new int[arrayLength];
-            for (int i = 0; i < myAarray.Length - 1; i++)
+            for (int i = 0; i < myArray.Length - 1; i++)
             {
 
                 var random = r.Next(-100, 100);
                 myArray[i] = random;
-                Console.WriteLine(myAarray[i] + " " + "i" + "=" + i);
+                Console.WriteLine(myArray[i] + " " + "i" + "=" + i);
 
             }
 
-            for (int i = 0; i < myAarray.Length - 1; i++)
+            for (int i = 0; i < myArray.Length - 1; i++)
             {
                 // i+1 for no replications. //Optimaization.
 
-                for (int s = i + 1; s < myAarray.Length; s++)
+                for (int s = i + 1; s < myArray.Length; s++)
                 {
 
-                    if (myAarray[i] + myAarray[s] == sum)
+                    if (myArray[i] + myArray[s] == sum)
                     {
 
                         counter++;

@@ -10,43 +10,49 @@ namespace data_structure_and_algorithms
         public static int FindMaximumProduct(int arrayLength)
         {
             int currentProduct = 0;
-            int nextProduct = 0;
             int maxProduct = 0;
+            int index_x = 0;
+            int index_y = 0;
 
-            list<int> allProductsOfArray = new List<int>();
+            // To do: to find multiple max product if exist. ex: [-3*-2] und [3*2]
 
-            /// <summary>
-            /// Counting the pairs in the array if found.
-            /// </summary>
-            int counter = 0;
 
             /// <summary>
             /// allocating the array with numbers generated randomly.
             /// </summary>
             /// <value>Random values</value>
-            Random r = new Random();
+            Random randomNumberGenerator = new Random();
             int[] myArray = new int[arrayLength];
-            for (int i = 0; i < myAarray.Length - 1; i++)
+            for (int i = 0; i < myArray.Length; i++)
             {
 
-                var random = r.Next(-100, 100);
-                myAarray[i] = random;
-                Console.WriteLine(myAarray[i] + " " + "i" + "=" + i);
+                var random = randomNumberGenerator.Next(-100, 100);
+                myArray[i] = random;
+                Console.WriteLine(myArray[i] + " " + "i" + "=" + i);
 
             }
 
-            for (var i = 0; i < myArray.Length; i++)
+            for (var x = 0; x < myArray.Length; x++)
             {
-                for (var w = i + 1; w < length.length; w++)
+                for (var y = x + 1; y < myArray.Length; y++)
                 {
 
+                    currentProduct = myArray[x] * myArray[y];
 
+
+                    if (maxProduct < currentProduct)
+                    {
+                        maxProduct = currentProduct;
+                        index_x = x;
+                        index_y = y;
+
+                    }
 
 
                 }
 
             }
-
+            Console.WriteLine("Max product is:" + " " + maxProduct + " " + " at index:" + " " + index_x + " " + "and index: " + " " + index_y);
 
 
             return 0;

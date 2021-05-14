@@ -8,11 +8,13 @@ namespace data_structure_and_algorithms
         public static void Run()
         {
 
-            Console.WriteLine("Hello World!");
-            PairFinder.FindPair(4, 10000000);
+            Console.WriteLine("Hello Arays!");
+            //PairFinder.FindPair(4, 10000000);
             //BinaryArraySort.SortBinaryArray(new int[] { 0, 0, 0, 0, 0, 0 }, 10);
-            Console.WriteLine();
-            SubarrayFinder.FindSubarray(6,10);
+            //Console.WriteLine();
+            //SubarrayFinder.FindSubarray(6,10);
+
+            MaximumProductFinder.FindMaximumProduct(10);
             Console.ReadLine();
 
         }
