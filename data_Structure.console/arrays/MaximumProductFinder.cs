@@ -39,7 +39,11 @@ namespace data_structure_and_algorithms
                 for (var y = x + 1; y < myArray.Length; y++)
                 {
 
+                   
+
                     currentProduct = myArray[x] * myArray[y];
+
+                     Console.WriteLine(x+" "+ y+ ": "+ currentProduct);
 
 
                     if (maxProduct < currentProduct)
@@ -47,6 +51,7 @@ namespace data_structure_and_algorithms
                         maxProduct = currentProduct;
                         index_x = x;
                         index_y = y;
+
 
                     }
 
