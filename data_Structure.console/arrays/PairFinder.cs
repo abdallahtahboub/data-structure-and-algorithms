@@ -28,12 +28,12 @@ namespace data_structure_and_algorithms
             /// </summary>
             /// <value>Random values</value>
             Random r = new Random();
-            int[] myAarray = new int[arrayLength];
+            int[] myArray = new int[arrayLength];
             for (int i = 0; i < myAarray.Length - 1; i++)
             {
 
                 var random = r.Next(-100, 100);
-                myAarray[i] = random;
+                myArray[i] = random;
                 Console.WriteLine(myAarray[i] + " " + "i" + "=" + i);
 
             }
