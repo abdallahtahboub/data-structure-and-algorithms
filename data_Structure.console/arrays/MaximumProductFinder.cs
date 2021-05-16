@@ -7,18 +7,18 @@ namespace data_structure_and_algorithms
     public class MaximumProductFinder
     {
 
+        // To do: to find multiple max product if exist. ex: [-3*-2] und [3*2]
+
+        // To do: Optimoze the problem: ex: by sorting the array and then find the max.
+
+
         public static int FindMaximumProduct(int arrayLength)
         {
             int currentProduct = 0;
             int maxProduct = 0;
             int index_x = 0;
             int index_y = 0;
-
-            // To do: to find multiple max product if exist. ex: [-3*-2] und [3*2]
-
-            // To do: Optimoze the problem: ex: by sorting the array and then find the max.
-
-            int[] myArray = ArrayAllocator.AllocateArray(arrayLength);
+            int[] myArray = ArrayAllocator.AllocateArrayRandomly(arrayLength);
 
 
             for (var x = 0; x < myArray.Length; x++)

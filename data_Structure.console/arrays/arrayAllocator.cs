@@ -6,7 +6,7 @@ namespace data_structure_and_algorithms
     public class ArrayAllocator
     {
 
-        public static int[] AllocateArray(int arrayLength)
+        public static int[] AllocateArrayRandomly(int arrayLength)
         {
             /// <summary>
             /// allocating the array with numbers generated randomly.
