@@ -10,12 +10,12 @@ namespace data_structure_and_algorithms
 
             Console.WriteLine("Hello Arays!");
             //PairFinder.FindPair(4, 10000000);
-            //BinaryArraySort.SortBinaryArray(new int[] { 0, 0, 0, 0, 0, 0 }, 10);
+            BinaryArraySorter.SortBinaryArray(10);
             //Console.WriteLine();
-            //SubarrayFinder.FindSubarray(6,10);
+            //SubarrayFinder.FindSubarray(0,100);
 
             //MaximumProductFinder.FindMaximumProduct(10000);
-            ArrayAllocator.AllocateArrayRandomly(1000);
+            //ArrayAllocator.AllocateArrayRandomly(1000);
             Console.ReadLine();
 
         }
