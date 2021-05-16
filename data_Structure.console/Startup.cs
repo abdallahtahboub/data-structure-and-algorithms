@@ -14,7 +14,8 @@ namespace data_structure_and_algorithms
             //Console.WriteLine();
             //SubarrayFinder.FindSubarray(6,10);
 
-            MaximumProductFinder.FindMaximumProduct(10);
+            // MaximumProductFinder.FindMaximumProduct(10000);
+            ArrayAllocator.AllocateArray(1000);
             Console.ReadLine();
 
         }
