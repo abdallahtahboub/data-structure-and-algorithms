@@ -26,5 +26,25 @@ namespace data_structure_and_algorithms
             return myArray;
         }
 
+        public static int[] AllocateBinaryArrayRandomly(int arrayLength)
+        {
+            /// <summary>
+            /// allocating the array with numbers generated randomly.
+            /// </summary>
+            /// <value>Random values</value>
+
+            Random randomNumberGenerator = new Random();
+            int[] myArray = new int[arrayLength];
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                var random = randomNumberGenerator.Next(-1, 1);
+                myArray[i] = random;
+                Console.WriteLine(myArray[i] + " " + "i" + "=" + i);
+
+            }
+
+            return myArray;
+        }
+
     }
 }

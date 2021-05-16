@@ -16,7 +16,7 @@ namespace data_structure_and_algorithms
         public static int SortBinaryArray(int arrayLength)
         {
             // todo: create binary array allocator.
-            int[] myArray = ArrayAllocator.AllocateArrayRandomly(arrayLength);
+            int[] myArray = ArrayAllocator.AllocateBinaryArrayRandomly(arrayLength);
 
             int zeroCounter = 0;
             for (int i = 0; i < myArray.Length; i++)
@@ -30,7 +30,7 @@ namespace data_structure_and_algorithms
             }
 
 
-
+            // how many ones in the array
             int Ones = myArray.Length - zeroCounter;
 
             // Writing zeroncounter and onesCounter on console.
