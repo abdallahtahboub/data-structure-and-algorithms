@@ -16,7 +16,7 @@ namespace data_structure_and_algorithms
         public static int SortBinaryArray(int[] MyArray, int arrayLength)
         {
 
-           int[] myArray = ArrayAllocator.AllocateArrayRandomly(arrayLength);
+            int[] myArray = ArrayAllocator.AllocateArrayRandomly(arrayLength);
 
             int zeroCounter = 0;
             for (int i = 0; i < MyArray.Length; i++)
