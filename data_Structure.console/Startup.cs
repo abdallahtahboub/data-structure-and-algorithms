@@ -13,7 +13,7 @@ namespace data_structure_and_algorithms
             //BinaryArraySorter.SortBinaryArray(100);
             //Console.WriteLine();
             //SubarrayFinder.FindSubarray(0,100);
-            BuubleArraySorter.SortBubbleArray(100);
+            BuubleArraySorter.SortBubbleArray(10);
             //MaximumProductFinder.FindMaximumProduct(10000);
             //ArrayAllocator.AllocateArrayRandomly(1000);
             Console.ReadLine();

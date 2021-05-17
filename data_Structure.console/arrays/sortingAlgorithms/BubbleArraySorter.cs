@@ -6,15 +6,12 @@ namespace data_structure_and_algorithms
 {
     public static class BuubleArraySorter
     {
-
-
-
         /// <summary>
-        /// Sorting a binary array in a linear time o(n)  Linear Complexity.
+        /// swaping two number in an array 
         /// </summary>
-        /// <param name="arrayLength"></param>
-
-
+        /// <param name="array"></param>
+        /// <param name="number_1"></param>
+        /// <param name="number_2"></param>
         public static void swap(int[] array, int number_1, int number_2)
         {
 
@@ -24,15 +21,21 @@ namespace data_structure_and_algorithms
 
 
         }
+
+        /// <summary>
+        /// Bubble sorting
+        /// </summary>
+        /// <param name="arrayLength"></param>
+        /// <returns></returns>
         public static int SortBubbleArray(int arrayLength)
         {
 
-            int[] myArray = ArrayAllocator.AllocateArrayRandomly(arrayLength, 0, 10);
+            int[] myArray = ArrayAllocator.AllocateArrayRandomly(arrayLength, 0, 2);
 
 
-            for (var x = 0; x < myArray.Length - 1; x++)
+            for (var x = 0; x < myArray.Length; x++)
             {
-                for (var y = x + 1; y < myArray.Length - 1; y++)
+                for (var y = x + 1; y < myArray.Length; y++)
                 {
 
                     if (myArray[x] > myArray[y])
