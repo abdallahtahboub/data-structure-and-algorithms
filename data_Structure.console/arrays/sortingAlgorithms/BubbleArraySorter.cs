@@ -30,6 +30,8 @@ namespace data_structure_and_algorithms
         public static int SortBubbleArray(int arrayLength)
         {
 
+            Console.WriteLine("array is beeing sorted using buuble sort algorithm.....");
+
             int[] myArray = ArrayAllocator.AllocateArrayRandomly(arrayLength, 0, 2);
 
 
@@ -41,11 +43,9 @@ namespace data_structure_and_algorithms
                     if (myArray[x] > myArray[y])
                     {
                         swap(myArray, x, y);
-                        break;
+                        //break;
 
                     }
-
-
 
                 }
 
@@ -56,7 +56,7 @@ namespace data_structure_and_algorithms
                 Console.WriteLine(myArray[i]);
 
             }
-
+            Console.WriteLine("Done");
 
 
             return 0;
