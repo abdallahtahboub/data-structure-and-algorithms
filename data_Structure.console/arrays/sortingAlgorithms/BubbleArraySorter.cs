@@ -41,8 +41,10 @@ namespace data_structure_and_algorithms
                     if (myArray[x] > myArray[y])
                     {
                         swap(myArray, x, y);
+                        break;
 
                     }
+
 
 
                 }
