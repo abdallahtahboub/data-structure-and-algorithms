@@ -5,21 +5,23 @@ namespace data_structure_and_algorithms
 {
     public class ArrayAllocator
     {
-
-        public static int[] AllocateArrayRandomly(int arrayLength)
+        /// <summary>
+        /// allocating the array with numbers generated randomly.
+        /// </summary>
+        /// <param name="arrayLength"></param>
+        /// <param name="rangeBetween"></param>
+        /// <param name="rangeTo"></param>
+        /// <returns>myArray</returns>
+        public static int[] AllocateArrayRandomly(int arrayLength, int rangeBetween, int rangeTo)
         {
-            /// <summary>
-            /// allocating the array with numbers generated randomly.
-            /// </summary>
-            /// <value>Random values</value>
 
             Random randomNumberGenerator = new Random();
             int[] myArray = new int[arrayLength];
             for (int i = 0; i < myArray.Length; i++)
             {
-                var random = randomNumberGenerator.Next(-100, 100);
+                var random = randomNumberGenerator.Next(rangeBetween, rangeTo);
                 myArray[i] = random;
-                Console.WriteLine(myArray[i] + " " + "i" + "=" + i);
+                // Console.WriteLine(myArray[i] + " " + "i" + "=" + i);
 
             }
 

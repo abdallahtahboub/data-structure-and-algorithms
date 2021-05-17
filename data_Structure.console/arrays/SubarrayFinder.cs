@@ -24,7 +24,7 @@ namespace data_structure_and_algorithms
 
             List<int> val = new List<int>();
 
-            int[] myArray = ArrayAllocator.AllocateArrayRandomly(arrayLength);
+            int[] myArray = ArrayAllocator.AllocateArrayRandomly(arrayLength,0,10);
 
             int result = 0;
 

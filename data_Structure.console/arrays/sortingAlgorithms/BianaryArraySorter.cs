@@ -15,7 +15,7 @@ namespace data_structure_and_algorithms
         /// <param name="arrayLength"></param>
         public static int SortBinaryArray(int arrayLength)
         {
-            // todo: create binary array allocator.
+
             int[] myArray = ArrayAllocator.AllocateBinaryArrayRandomly(arrayLength);
 
             int zeroCounter = 0;

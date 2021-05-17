@@ -18,7 +18,7 @@ namespace data_structure_and_algorithms
             int maxProduct = 0;
             int index_x = 0;
             int index_y = 0;
-            int[] myArray = ArrayAllocator.AllocateArrayRandomly(arrayLength);
+            int[] myArray = ArrayAllocator.AllocateArrayRandomly(arrayLength, 0, 10);
 
 
             for (var x = 0; x < myArray.Length; x++)

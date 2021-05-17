@@ -23,7 +23,7 @@ namespace data_structure_and_algorithms
             /// </summary>
             int counter = 0;
 
-            int[] myArray = ArrayAllocator.AllocateArrayRandomly(arrayLength);
+            int[] myArray = ArrayAllocator.AllocateArrayRandomly(arrayLength, 0, 10);
 
             for (int i = 0; i < myArray.Length - 1; i++)
             {
