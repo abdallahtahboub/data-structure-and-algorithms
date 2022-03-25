@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data-structure-and-algorithms", "data_Structure.console\data-structure-and-algorithms.csproj", "{19344F8C-8F65-45F1-801D-684D3854AB9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wepAPI", "wepAPI\wepAPI.csproj", "{B004B780-0C97-4E87-898A-F4BEFFEFC60F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,17 +30,5 @@ Global
 		{19344F8C-8F65-45F1-801D-684D3854AB9A}.Release|x64.Build.0 = Release|Any CPU
 		{19344F8C-8F65-45F1-801D-684D3854AB9A}.Release|x86.ActiveCfg = Release|Any CPU
 		{19344F8C-8F65-45F1-801D-684D3854AB9A}.Release|x86.Build.0 = Release|Any CPU
-		{B004B780-0C97-4E87-898A-F4BEFFEFC60F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B004B780-0C97-4E87-898A-F4BEFFEFC60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B004B780-0C97-4E87-898A-F4BEFFEFC60F}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{B004B780-0C97-4E87-898A-F4BEFFEFC60F}.Debug|x64.Build.0 = Debug|Any CPU
-		{B004B780-0C97-4E87-898A-F4BEFFEFC60F}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{B004B780-0C97-4E87-898A-F4BEFFEFC60F}.Debug|x86.Build.0 = Debug|Any CPU
-		{B004B780-0C97-4E87-898A-F4BEFFEFC60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B004B780-0C97-4E87-898A-F4BEFFEFC60F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B004B780-0C97-4E87-898A-F4BEFFEFC60F}.Release|x64.ActiveCfg = Release|Any CPU
-		{B004B780-0C97-4E87-898A-F4BEFFEFC60F}.Release|x64.Build.0 = Release|Any CPU
-		{B004B780-0C97-4E87-898A-F4BEFFEFC60F}.Release|x86.ActiveCfg = Release|Any CPU
-		{B004B780-0C97-4E87-898A-F4BEFFEFC60F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

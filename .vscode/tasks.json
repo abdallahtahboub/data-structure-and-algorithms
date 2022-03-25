@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/data-structure-and-algorithms.csproj",
+                "${workspaceFolder}/data_Structure.console/data-structure-and-algorithms.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/data-structure-and-algorithms.csproj",
+                "${workspaceFolder}/data_Structure.console/data-structure-and-algorithms.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,9 +32,8 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/data-structure-and-algorithms.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "--project",
+                "${workspaceFolder}/data_Structure.console/data-structure-and-algorithms.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
