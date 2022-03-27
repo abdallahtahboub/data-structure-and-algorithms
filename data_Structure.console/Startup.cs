@@ -8,12 +8,12 @@ namespace data_structure_and_algorithms
         public static void Run()
         {
 
-            Console.WriteLine("Hello Arays!");
+            Console.WriteLine("Hello List!");
             //PairFinder.FindPair(4, 10000000);
             //BinaryArraySorter.SortBinaryArray(100);
             //Console.WriteLine();
             //SubarrayFinder.FindSubarray(0,100);
-           // BuubleArraySorter.SortBubbleArray(1000000);
+            // BuubleArraySorter.SortBubbleArray(1000000);
 
             LinkedList LS = new LinkedList();
             LS.AddLast(10);
@@ -25,12 +25,13 @@ namespace data_structure_and_algorithms
             LS.AddLast(70);
             LS.AddLast(80);
             LS.Print();
-            var x = LS.Find(40);
+            Console.WriteLine();
+            var x = LS.Find(70);
             Console.WriteLine(x.Data);
-            Console.WriteLine(x.Next.Next.Next.Data);
-            LS.AddAfterElement(10,40);
-            LS.AddAfterElement(10000,40);
-            LS.Print();
+            Console.WriteLine(x.next.Data);
+            // LS.AddAfterElement(10,40);
+            // LS.AddAfterElement(10000,40);
+            // LS.Print();
             //MaximumProductFinder.FindMaximumProduct(10000);
             //ArrayAllocator.AllocateArrayRandomly(1000);
             Console.ReadLine();

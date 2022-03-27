@@ -1,10 +1,15 @@
+
+using System;
+
 namespace data_structure_and_algorithms
 {
-    public class Node
+    class Node
     {
 
         public int Data;
 
-        public Node Next;
+        public Node next;
+
+
     }
 }
