@@ -13,7 +13,24 @@ namespace data_structure_and_algorithms
             //BinaryArraySorter.SortBinaryArray(100);
             //Console.WriteLine();
             //SubarrayFinder.FindSubarray(0,100);
-            BuubleArraySorter.SortBubbleArray(100000);
+           // BuubleArraySorter.SortBubbleArray(1000000);
+
+            LinkedList LS = new LinkedList();
+            LS.AddLast(10);
+            LS.AddLast(20);
+            LS.AddLast(500);
+            LS.AddLast(40);
+            LS.AddLast(50);
+            LS.AddLast(60);
+            LS.AddLast(70);
+            LS.AddLast(80);
+            LS.Print();
+            var x = LS.Find(40);
+            Console.WriteLine(x.Data);
+            Console.WriteLine(x.Next.Next.Next.Data);
+            LS.AddAfterElement(10,40);
+            LS.AddAfterElement(10000,40);
+            LS.Print();
             //MaximumProductFinder.FindMaximumProduct(10000);
             //ArrayAllocator.AllocateArrayRandomly(1000);
             Console.ReadLine();
