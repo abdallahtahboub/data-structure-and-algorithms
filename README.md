@@ -20,6 +20,9 @@ https://blog.usejournal.com/500-data-structures-and-algorithms-practice-problems
 - User gives a sum and array Length. The array will be randomly allocated.
 - Output will be the maximum product in the array.
 
+5. Repetition Finder [24.07.2022]
+- User gives an array with a maximum size of 100 and the values of that array are from 0-9.1
+- Output will be the number of repetition for each number in that array.
 
 [Graph]
 
